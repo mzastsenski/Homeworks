@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(250, 250, 250);
+  }
+  .wrapper {
+    padding: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+  .header img {
+    width: 32px;
+    border-radius: 50%;
+  }
+  .header h1 {
+    font-size: 1.25rem;
+  }
+  .wallet .card {
+    background-color: #6951ff;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 12px;
+    height: 11rem;
+
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    box-shadow: 0 10px 20px #7e7e7e7d;
+  }
+
+  .wallet .extra-card {
+    padding: 13px 12px;
+    border-radius: 12px;
+    box-shadow: 0 15px 23px #b9b6b64c;
+  }
+  .wallet .extra-card h6 {
+    margin-top: 6px;
+    font-size: 11px;
+    color: gray;
+  }
+  .transacts-header {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .transacts-header p {
+    color: #6951ff;
+    font-size: 12px;
+  }
+  .transacts {
+    margin-top: 14px;
+    margin-bottom: 65px;
+  }
+  .transact {
+    margin: 12.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .transact-left {
+    display: flex;
+    position: relative;
+  }
+  .transact-left h6 {
+    color: grey;
+    font-size: 9px;
+    padding-top: 2px;
+  }
+  .transact-left .info {
+    padding-top: 2px;
+    padding-left: 11px;
+  }
+  .transact-left h5 {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .img-div {
+    display: flex;
+  }
+  .transact img {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  .transact-left .action {
+    margin-top: 26px;
+    margin-left: -20px;
+    /* position: absolute;
+    bottom: 0;
+    left: 22px; */
+    height: 2px;
+    padding: 3px 4px;
+    border-radius: 50%;
+  }
+
+  /* .transact-left .img-div:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    border-radius: 50%;
+    bottom: 0;
+    left: 22px;
+  } */
+  .transact-left .in {
+    background-color: rgb(2, 195, 2);
+  }
+  .transact-left .out {
+    background-color: red;
+  }
+  .menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 0 75px;
+  }
+}

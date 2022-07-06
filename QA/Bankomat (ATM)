@@ -1,0 +1,131 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Bankomat (ATM)",
+      "id": 1,
+      "attr": {
+        "position": [
+          -77,
+          -60,
+          1
+        ],
+        "style": {
+          "width": 118
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "wait",
+          "id": "2.16b6.caf292fa9-1bf0.987a206bd",
+          "ideas": {
+            "1": {
+              "title": "User: inserts a card",
+              "id": "3.16b6.caf292fa9-1bf0.987a206bd",
+              "ideas": {
+                "2": {
+                  "title": "language",
+                  "id": "28.16b6.caf292fa9-1bf0.987a206bd",
+                  "ideas": {
+                    "1": {
+                      "title": "EN",
+                      "id": "29.16b6.caf292fa9-1bf0.987a206bd",
+                      "ideas": {
+                        "1": {
+                          "title": "ATM: asks insers a card",
+                          "id": "8.16b6.caf292fa9-1bf0.987a206bd",
+                          "ideas": {
+                            "1": {
+                              "title": "UserL enters correct code",
+                              "id": "12.16b6.caf292fa9-1bf0.987a206bd",
+                              "ideas": {
+                                "1": {
+                                  "title": "ATM: sends request to the server and after code was confirm, user's menu opens",
+                                  "id": "13.16b6.caf292fa9-1bf0.987a206bd",
+                                  "attr": {}
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "User: enter incorrect code",
+                              "id": "15.16b6.caf292fa9-1bf0.987a206bd",
+                              "ideas": {
+                                "1": {
+                                  "title": "ATM: sends request to the server and after code was declined, warning appears",
+                                  "id": "17.16b6.caf292fa9-1bf0.987a206bd",
+                                  "attr": {},
+                                  "ideas": {
+                                    "1": {
+                                      "title": "UserL enters correct code",
+                                      "ideas": {
+                                        "2": {
+                                          "title": "ATM: sends request to the server and after code was confirm, user's menu opens",
+                                          "id": "20.16b6.caf292fa9-1bf0.987a206bd",
+                                          "attr": {}
+                                        }
+                                      },
+                                      "id": "18.16b6.caf292fa9-1bf0.987a206bd",
+                                      "attr": {}
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "attr": {}
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "DE",
+                      "id": "31.16b6.caf292fa9-1bf0.987a206bd"
+                    },
+                    "3": {
+                      "title": "ES",
+                      "id": "32.16b6.caf292fa9-1bf0.987a206bd"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "User: clicks on any button",
+              "id": "5.16b6.caf292fa9-1bf0.987a206bd",
+              "attr": {
+                "style": {
+                  "width": 170
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "ATM: asks insers a card",
+                  "id": "7.16b6.caf292fa9-1bf0.987a206bd",
+                  "ideas": {
+                    "1": {
+                      "title": "ATM: asks to enter code",
+                      "id": "14.16b6.caf292fa9-1bf0.987a206bd"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "User: taps on a screen",
+              "id": "6.16b6.caf292fa9-1bf0.987a206bd",
+              "ideas": {
+                "1": {
+                  "title": "ATM: asks insers a card",
+                  "id": "9.16b6.caf292fa9-1bf0.987a206bd",
+                  "ideas": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "",
+  "links": []
+}

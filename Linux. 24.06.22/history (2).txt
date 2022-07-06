@@ -1,0 +1,7 @@
+   0 cd /
+   1 mkdir -p /opt/task
+   2 ls -la | tail -4 >> /opt/task/start.txt
+   3 cd /opt/task
+   4 ls
+   5 cat start.txt
+   6 history > history.txt

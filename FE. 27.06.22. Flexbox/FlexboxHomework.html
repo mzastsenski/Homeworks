@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flexbox-Homework</title>
+    <style>
+      .wrapper,
+      .d1,
+      .d2,
+      .d3-4,
+      .d3,
+      .d4,
+      .d4 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 24px;
+        color: white;
+      }
+      .wrapper {
+        height: 80vh;
+        margin: 12px;
+        padding: 8px 22px;
+        background-color: rgb(165, 165, 165);
+      }
+      .d1 {
+        width: 40%;
+        height: 90%;
+        background-color: red;
+      }
+      .d2-4 {
+        width: 60%;
+        height: 90%;
+      }
+      .d2 {
+        height: 50%;
+        background-color: rgb(236, 236, 0);
+      }
+      .d3-4 {
+        height: 50%;
+        align-items: end;
+      }
+      .d3 {
+        width: 100%;
+        height: 90%;
+        background-color: violet;
+      }
+      .d4 {
+        height: 90%;
+        width: 100%;
+        flex-direction: column;
+      }
+      .d4 div {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(18, 99, 222);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="d1">1</div>
+      <div class="d2-4">
+        <div class="d2">2</div>
+        <div class="d3-4">
+          <div class="d3">3</div>
+          <div class="d4">
+            <div>4a</div>
+            <div>4b</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

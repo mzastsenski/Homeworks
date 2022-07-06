@@ -1,0 +1,172 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Pencil",
+      "id": 1,
+      "attr": {
+        "position": [
+          -26,
+          -293,
+          1
+        ],
+        "style": {
+          "fontMultiplier": 1.25
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Reliability",
+          "id": "2.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "3": {
+              "title": "is it posible to sharpen this pencil",
+              "id": "8.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "2": {
+          "title": "Usability",
+          "id": "19.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "is it easy to hold in a hand",
+              "id": "20.bd18.1e14cc354-7d06.e40fb85fe"
+            },
+            "2": {
+              "title": "left hand use",
+              "id": "21.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "12": {
+          "title": "Compatibility",
+          "id": "22.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "with papaer",
+              "id": "23.bd18.1e14cc354-7d06.e40fb85fe",
+              "ideas": {
+                "1": {
+                  "title": "glossy",
+                  "id": "28.bd18.1e14cc354-7d06.e40fb85fe",
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "for drowing",
+                  "id": "30.bd18.1e14cc354-7d06.e40fb85fe"
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              56.00566101074219,
+              136.02556610107422,
+              3
+            ],
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "0.5": {
+          "title": "functional",
+          "id": "10.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "share",
+              "id": "11.bd18.1e14cc354-7d06.e40fb85fe"
+            },
+            "3": {
+              "title": "erase the draw (an eraser)",
+              "id": "13.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "position": [
+              96.99429321289062,
+              -213.9943084716797,
+              1
+            ],
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "-1": {
+          "title": "performance",
+          "id": "14.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "how long works",
+              "id": "15.bd18.1e14cc354-7d06.e40fb85fe"
+            },
+            "2": {
+              "title": "how hard can you press on the paper",
+              "id": "18.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "-2": {
+          "title": "Maintainability",
+          "id": "16.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "can I sharped it",
+              "id": "17.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        },
+        "-2.5": {
+          "title": "portability",
+          "id": "24.bd18.1e14cc354-7d06.e40fb85fe",
+          "ideas": {
+            "1": {
+              "title": "in a bag",
+              "id": "25.bd18.1e14cc354-7d06.e40fb85fe",
+              "ideas": {}
+            },
+            "2": {
+              "title": "in the packet",
+              "id": "27.bd18.1e14cc354-7d06.e40fb85fe"
+            }
+          },
+          "attr": {
+            "position": [
+              10.005722045898438,
+              37.01134490966797,
+              2
+            ],
+            "style": {
+              "backgroundColor": "#FF00FF"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "",
+  "links": []
+}
