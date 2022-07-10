@@ -35,6 +35,11 @@ public class Homework080722 {
             System.out.println("No");
         }
 
-
+        // 5.
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Enter String: ");
+        String str = sc2.next();
+        System.out.println(str.charAt(0));
+        //    System.out.println("Kolja".charAt(0));
     }
 }
