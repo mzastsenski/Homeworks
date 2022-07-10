@@ -193,13 +193,17 @@ a {
   border-radius: 20px;
 }
 .graphix-menu span:active,
+.graphix-menu span:focus,
 .graphix-menu span:hover {
   background-color: var(--main-color1);
-  /* border: 1px solid transparent; */
+  border: 1px solid transparent;
   cursor: pointer;
 }
 .border {
   border: 1px solid rgb(207, 207, 207);
+}
+.border-transp {
+  border: 1px solid transparent;
 }
 .graphic-div {
   display: flex;
