@@ -107,6 +107,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* box-sizing: border-box; */
 }
 .card-black ion-icon {
   font-size: 36px;
@@ -314,8 +315,9 @@ a {
 .menu .menu-item ion-icon {
   font-size: 14px;
 }
-.menu svg {
-  width: 20px;
+svg {
+  width: 19px;
+  cursor: pointer;
 }
 
 /* .menu-item:not(:last-child) {
