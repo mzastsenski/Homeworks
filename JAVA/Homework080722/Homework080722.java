@@ -9,6 +9,7 @@ public class Homework080722 {
         String cups = " cups";
         int b = (int) f;
         System.out.println(b + cups);
+        //    System.out.println((int) f + cups);
         int c = Math.round(f);
         System.out.println(c + cups);
 
@@ -19,7 +20,7 @@ public class Homework080722 {
         char j = 'j';
         char a = 'a';
         System.out.println(String.valueOf(k) + String.valueOf(o) + String.valueOf(l) + String.valueOf(j) + String.valueOf(a));
-
+        System.out.println(""+ k+o+l+j+a);  // the same "" - empty string am Anfang is important
         // 4.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number N: ");
@@ -29,7 +30,7 @@ public class Homework080722 {
         System.out.println("Enter number K: ");
         int K = sc.nextInt();
 
-        if (K < N * M) {
+        if (K <= N * M) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
