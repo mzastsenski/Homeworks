@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="youami.css" id="css" type="text/css" rel="stylesheet" />
+    <title>Youami</title>
+  </head>
+  <body>
+    <div class="container">
+      <script>
+        fetch("data.json")
+          .then((res) => res.json())
+          .then((res) => addData(res));
+
+        function addData(data) {
+          data.forEach((e) => {
+            document.querySelector(".container").innerHTML += `
+              <div class="block">
+                <div class="main">
+                  <div class="header">
+                    <span class="logo">youami</span>
+                    <span class="text is-upper">${e.header}</span>
+                  </div>
+                  <div class="center">
+                    <div class="text is-upper">${e.text}</div>
+                    <div class="title">${e.title}</div>
+                    <div class="text">1 of 10</div>
+                  </div>
+                </div>
+                <div class="text">${e.footer}</div>
+              </div>`;
+          });
+        }
+      </script>
+    </div>
+  </body>
+</html>
