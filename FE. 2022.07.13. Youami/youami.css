@@ -35,8 +35,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 40px 30px;
-  min-width: 300px;
-  min-height: 300px;
+  /* min-width: 300px;
+  min-height: 300px; */
   width: calc(100% / 3);
   height: calc(100% / 2);
   color: #f8f8f8;
@@ -90,10 +90,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
   .container {
     display: block;
-    width: 90vw;
-    height: auto;
+    height: 100%;
   }
   .block {
     width: 93vw;
